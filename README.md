@@ -23,3 +23,6 @@ The exploratory data analysis reveals the following:
 
 #### 	   		ROC_AUC	    Accuracy	F1          Precision 	Recall
 0.933411	0.897361	0.892893	0.871312	0.91557
+
+## References
+1 - https://www.kaggle.com/datasets/hassan06/nslkdd
