@@ -21,5 +21,5 @@ The exploratory data analysis reveals the following:
 
  After scaling and encoding the data, a Logistic regression model was used as a baseline without any optimization of its hyperparameters.  The model ran on the reduced feature set resulting from the initial principal component analysis (PCA) performed.  The model produced the following results:
 
- 	   			ROC_AUC	    Accuracy	F1          Precision 	Recall
+#### 	   		ROC_AUC	    Accuracy	F1          Precision 	Recall
 Baseline_Model	0.933411	0.897361	0.892893	0.871312	0.91557
