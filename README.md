@@ -27,6 +27,12 @@ logistic_regression 0.900135   0.882239  0.875047  0.867775    0.882443 <br>
 xgboost             0.999991   0.998571  0.998471  0.99881     0.998131 <br>
 randomforestclass   0.99999    0.99869   0.998598  0.999235    0.997961 <br>
 
+## Conclusion
+
+When comparing the above results to the XGBOOST model results the two seem to be very similar, however, the RandomForestClassifier model produced 2 more false negatives then the XGBOOST model. In other words, the XGBOOST model was a little less precise then the RandomForestClassifier model but it had a better recall score. With regards to anomaly detection, recall is a more important metric as it can be used to minimize false negatives which are more dangerous than false positives. Based on the above metrics and confusion matricies, the XGBOOST model seems to slightly outperform the RandomForestClassifier model. In conclusion, both models seem to be very accurate and precise.
+
+In conclusion, machine learning seems to accurately predict anomalous activity when used in a supervised learning example such as the one used in this report. As for the type of classification machine learning models XGBOOST and RandomForestClassifier seem to produce fairly accurate results. XGBOOST seems to be slighlty better at reducing false negatives which ideally need to be minimized to address this prticular use case for machine learning.
+
 
 ## References
 1 - https://www.kaggle.com/datasets/hassan06/nslkdd
