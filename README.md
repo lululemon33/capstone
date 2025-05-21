@@ -21,11 +21,11 @@ The exploratory data analysis reveals the following:
 
  After scaling and encoding the data, a Logistic regression model was used as a baseline without any optimization of its hyperparameters.  Logistic Regression with cross validation and hyperparameter tuning along with XGBoost and RandomForestClassifier models were used to compare resulting metrics.  The models ran on the reduced feature set resulting from the initial principal component analysis (PCA) performed.  The models produced the following results:
 
-#### 	 Model  		  ROC_AUC    Accuracy  F 1       Precision   Recall
-Baseline_Model      0.886264   0.88327   0.874053  0.881413    0.866814
-logistic_regression 0.900135   0.882239  0.875047  0.867775    0.882443
-xgboost             0.999991   0.998571  0.998471  0.99881     0.998131
-randomforestclass   0.99999    0.99869   0.998598  0.999235    0.997961
+#### 	 Model  		  ROC_AUC    Accuracy  F 1       Precision   Recall <br>
+Baseline_Model      0.886264   0.88327   0.874053  0.881413    0.866814 <br>
+logistic_regression 0.900135   0.882239  0.875047  0.867775    0.882443 <br>
+xgboost             0.999991   0.998571  0.998471  0.99881     0.998131 <br>
+randomforestclass   0.99999    0.99869   0.998598  0.999235    0.997961 <br>
 
 
 ## References
