@@ -31,7 +31,7 @@ randomforestclass   0.99999    0.99869   0.998598  0.999235    0.997961 <br>
 
 When comparing the above results to the XGBOOST model results the two seem to be very similar, however, the RandomForestClassifier model produced 2 more false negatives then the XGBOOST model. In other words, the XGBOOST model was a little less precise then the RandomForestClassifier model but it had a better recall score. With regards to anomaly detection, recall is a more important metric as it can be used to minimize false negatives which are more dangerous than false positives. Based on the above metrics and confusion matricies, the XGBOOST model seems to slightly outperform the RandomForestClassifier model. In conclusion, both models seem to be very accurate and precise.
 
-In conclusion, machine learning seems to accurately predict anomalous activity when used in a supervised learning example such as the one used in this report. As for the type of classification machine learning models XGBOOST and RandomForestClassifier seem to produce fairly accurate results. XGBOOST seems to be slighlty better at reducing false negatives which ideally need to be minimized to address this prticular use case for machine learning.
+In summary machine learning seems to accurately predict anomalous activity when used in a supervised learning example such as the one used in this report. As for the type of classification machine learning models XGBOOST and RandomForestClassifier seem to produce fairly accurate results. XGBOOST seems to be slighlty better at reducing false negatives which ideally need to be minimized to address this prticular use case for machine learning.
 
 
 ## References
